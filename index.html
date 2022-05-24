@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="container">
+   <header class="header">
+    <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+    <p id ="description" class="description text-center">thank you for taking the to help. us improve the platfrom </p>
+</header> 
+
+
+   <!-- Form -->
+
+    
+    <form action="" id="Survey-form"  >
+<div class="form-group">
+    <label for="name">Name</label><br> 
+    <input type="text" id="name-label" placeholder="Enter your name" required class="form-control "><br><br>
+
+</div>
+      <div class="form-group">
+        <label for="email">Email</label><br>
+        <input type="text" id="email-label" placeholder="Enter your Email " required class="form-control "><br><br>
+
+      </div>
+  <div class="form-group">
+    <label for="age">Age (optional)</label><br>
+    <input type="number" id="number-label" placeholder="Enter your Age" required class="form-control "><br><br>
+
+  </div>
+
+  <div class="form-group">
+    <select name="option" id="dropdown" class="form-control" >
+        <option value="student">Student</option>
+        <option value="other">others</option>
+    </select>
+  </div>
+<div class="form-group">
+    <h3> Would you recommend freeCodeCamp to a friend?</h3>
+        
+    <!-- radio -->
+        <input type="radio" name="check" class="input-radio">
+        <label for="Definitely">Definitely</label><br><br>
+    
+        <input type="radio" name="check" class="input-radio">
+        <label for="Maybe">Maybe</label><br><br>
+
+        <input type="radio" name="check" class="input-radio">
+        <label for="not sure">Not sure</label><br><br>
+
+
+</div>
+<!-- radio -->
+<div class="form-group">
+    <p>What is your favorite feature of freeCodeCamp?</p>
+    <select id="most-like" name="mostLike" class="form-control" required>
+      <option disabled selected value>Select an option</option>
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="openSource">Open Source</option>
+    </select>
+  </div>
+
+<div class="form-group">
+                   <!-- Checkbox -->
+                   <p>what  Would you like to improve?<span class="clue">(check all that apply)</span></p>
+                   <input type="checkbox" value="Front-end Projects" class="input-checkbox">
+                   <label for="Definitely">Definitely</label><br><br>
+               
+                   <input type="checkbox" value=" back-end Projects" class="input-checkbox">
+                   <label for="Maybe">Maybe</label><br><br>
+   
+                   <input type="checkbox" value=" dat"  class="input-checkbox">
+                   <label for="not sure">Not sure</label><br><br>
+                           
+                   <input type="checkbox" value="check" class="input-checkbox">
+                   <label for="Definitely">Definitely</label><br><br>
+               
+                   <input type="checkbox" value="check" class="input-checkbox">
+                   <label for="Maybe">Maybe</label><br><br>
+   
+                   <input type="checkbox" value="check" class="input-checkbox">
+                   <label for="not sure">Not sure</label><br><br>
+           
+   
+</div>
+
+
+
+            
+            <textarea name="add" id="" cols="30" rows="10" class="input-textarea"></textarea><br><br>
+            <button type="submit" class="submit-button">submit</button>
+    </form>
+    </div>
+</body>
+</html>
